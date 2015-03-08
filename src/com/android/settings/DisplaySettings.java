@@ -171,13 +171,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mDisplayManager = (DisplayManager)getActivity().getSystemService(
                 Context.DISPLAY_SERVICE);
-        mWifiDisplayStatus = mDisplayManager.getWifiDisplayStatus();
-        mWifiDisplayPreference = (Preference)findPreference(KEY_WIFI_DISPLAY);
-        if (mWifiDisplayStatus.getFeatureState()
-                == WifiDisplayStatus.FEATURE_STATE_UNAVAILABLE) {
-            getPreferenceScreen().removePreference(mWifiDisplayPreference);
-            mWifiDisplayPreference = null;
-        }
+        getPreferenceScreen().removePreference(mWifiDisplayPreference);
+        mWifiDisplayPreference = null;
 
         PreferenceCategory advancedPrefs = (PreferenceCategory) findPreference(CATEGORY_ADVANCED);
 
