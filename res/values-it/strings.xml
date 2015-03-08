@@ -1377,7 +1377,7 @@
     <string name="usage_type_audio" msgid="6957269406840886290">"Audio"</string>
     <string name="usage_type_video" msgid="4295357792078579944">"Video"</string>
     <string name="usage_type_on_time" msgid="3351200096173733159">"Tempo in attività"</string>
-    <string name="usage_type_no_coverage" msgid="3797004252954385053">"Tempo trascorso senza segnale"</string>
+    <string name="usage_type_no_coverage" msgid="3797004252954385053">"Tempo senza segnale"</string>
     <string name="battery_action_stop" msgid="649958863744041872">"Termina"</string>
     <string name="battery_action_app_details" msgid="7861051816778419018">"Informazioni applicazione"</string>
     <string name="battery_action_app_settings" msgid="4570481408106287454">"Impostazioni applicazioni"</string>
